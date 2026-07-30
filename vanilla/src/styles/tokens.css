@@ -1,0 +1,61 @@
+@layer tokens {
+  :root {
+    color-scheme: dark;
+    font-family: var(--font-body);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --color-page: #131518;
+    --color-card-start: #232a34;
+    --color-card-end: #181e27;
+    --color-surface: #262e38;
+    --color-text: #ffffff;
+    --color-muted: #969fad;
+    --color-accent: #fc7614;
+
+    --font-body: 'Overpass', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    --space-0: 0;
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+    --space-5: 40px;
+
+    --card-width: 327px;
+    --card-radius: 15px;
+    --card-padding-inline: 24px;
+    --card-padding-block: 24px;
+    --card-rating-min-block-size: 353px;
+    --card-thank-you-min-block-size: 360px;
+    --badge-size: 40px;
+    --rating-size: 44px;
+    --illustration-width: 144px;
+    --illustration-height: 96px;
+    --heading-size: 1.5rem;
+    --heading-line-height: 1.25;
+    --body-size: 0.875rem;
+    --body-line-height: 1.5714;
+  }
+
+  @media (min-width: 48rem) {
+    :root {
+      --card-width: 412px;
+      --card-radius: 30px;
+      --card-padding-inline: 30.5px;
+      --card-padding-block: 32px;
+      --card-rating-min-block-size: 412px;
+      --card-thank-you-min-block-size: 416px;
+      --badge-size: 48px;
+      --rating-size: 52px;
+      --illustration-width: 162px;
+      --illustration-height: 108px;
+      --heading-size: 1.75rem;
+      --heading-line-height: 1.25;
+      --body-size: 0.9375rem;
+      --body-line-height: 1.6;
+    }
+  }
+}
