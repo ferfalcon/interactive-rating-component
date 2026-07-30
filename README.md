@@ -37,7 +37,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Astro ](https://astro.build/) - web framework
+- [Vite](https://vite.dev/) - Frontend build tool
 - [Figma](https://www.figma.com/) - Edit design files
 
 
